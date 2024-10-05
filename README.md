@@ -21,6 +21,8 @@ R3.09_TP1et2
 - Clé : `"CLE"`
 - Sortie attendue : `"e<4.<;6]WVM"`
 
+## Exercice 2 : Déchiffrement de Vigenère
+
 ### Test 4 : Déchiffrement simple
 - Entrée : `"e<4.<;6"`
 - Clé : `"CLE"`
