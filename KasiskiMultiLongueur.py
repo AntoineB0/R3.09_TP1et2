@@ -4,7 +4,7 @@ import Kasiski as K
 
 def kasiski_multi_longueur(texte: str) -> int:
     tableau_pgcd = []
-    for i in range(3, 10):
+    for i in range(4, 10):
         pgcd = K.kasiski(texte, i)
         tableau_pgcd.append(pgcd)
     
