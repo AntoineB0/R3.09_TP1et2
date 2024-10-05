@@ -1,8 +1,14 @@
 import Kasiski as K
 
-#On va appeler la fonction kasiski avec differents longueur et si le pgcd est le meme alors on a la longueur de la cle
+def kasiski_multi_longueur(texte: str) -> None:
+    """On va appeler la fonction kasiski avec differents longueur et si le pgcd est le meme alors on a la longueur de la cle
 
-def kasiski_multi_longueur(texte: str) -> int:
+    Args:
+        texte (str): Texte que l'on veut analyser
+
+    Returns:
+        None: Affiche les pourcentages d'apparition des chiffres trouvés
+    """
     tableau_pgcd = []
     for i in range(4, 10):
         pgcd = K.kasiski(texte, i)

@@ -1,6 +1,15 @@
 from math import gcd
 
 def kasiski(texte: str, longueur: int) -> int:
+    """Fonction qui permet de trouver la longueur de la clé de chiffrement d'un texte chiffré avec la méthode de Vigenère.
+
+    Args:
+        texte (str): Texte que l'on veut analyser
+        longueur (int): Longueur des sous-chaînes à analyser
+
+    Returns:
+        int: Longueur de la clé de chiffrement
+    """
     repet: dict[str, list[int]] = {}
     sous_chaine: str
 
